@@ -145,8 +145,3 @@ if uploaded_file is not None:
     
     csv = helpers.convert_df(userdf.drop('period',axis=1))
     st.sidebar.download_button("Download Raw Data",csv,f"{selected_user}.csv","text/csv")
-
-    
-
-
-

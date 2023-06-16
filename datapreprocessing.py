@@ -82,8 +82,3 @@ def getdata(data):
     df['period'] = period
 
     return df
-
-
-
-
-
